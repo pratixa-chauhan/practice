@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head> My feedback form
+    <style "width: 100%; borde:2px solid black; ">
+    </style>
+</head>
+<form action="action_page.php">
+    <ul>
+        <li> <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </li><br>
+        <li>
+            <label for="password">Email</label>
+            <input type="password" id="pwd" name="pwd">
+        </li><br>
+        <li>
+            <label for="email">Password</label>
+            <input type="email" id="email" name="email">
+        </li><br><br><br>
+
+        <li>
+            <h2>Please check all the emotions that apply to you</h2>
+
+        </li>
+        <li>
+            <label for="angry">Angry</label>
+            <input type="checkbox" value="checkbox">
+        </li>
+        <li>
+            <label for="Sad">Sad</label>
+            <input type="checkbox" value="checkbox">
+        </li>
+        <li>
+            <label for="Happy">Happy</label>
+            <input type="checkbox" value="checkbox">
+
+        </li>
+        <li>
+            <label for="Ambivalent">Ambivalent</label>
+            <input type="checkbox" value="checkbox">
+        </li>
+        <li>
+            <h2>How satisfied were you whith our service?</h2>
+        </li>
+        <p>please select your mood</p>
+        <li>
+            <label for="very satisfied">Very satisfied</label>
+            <input type="radio" name="mood" value="radio">
+        </li>
+        <li>
+            <label for="satisfied">satisfied</label>
+            <input type="radio" name="mood" value="radio">
+        </li>
+        <li>
+            <label for="Don't care">Don't care</label>
+            <input type="radio" name="mood" value="radio">
+        </li>
+        <li>
+            <label for="Dissatified">dissatisfied</label>
+            <input type="radio" name="mood" value="radio">
+        </li>
+        <li>
+            <label for="very dissatisfied">Very dissatisfied</label>
+            <input type="radio" name="mood" value="radio">
+        </li>
+        <li>
+            <label for="comment">Further comment</label>
+            <textarea id="comment" name="comment" cols="30" rows="10">
+
+                           </textarea>
+        </li><br>
+        <li>
+            <label for="photo">Bio photo</label>
+            <input type="file" id="myfile" name="myfile" multiple>
+
+        </li>
+        <li>
+            <label for="location"> choose Location</label>
+
+            <select name="location" id="location" form="locationform">
+                <option value="prahladnagar">Prahladnagar</option>
+                <option value="vejalpur">Vejalpur</option>
+                <option value="sarkhej">Sarkhej</option>
+                <option value="Iscon">Iscon</option>
+            </select>
+            Defi
+        </li>
+        <input type="submit" value="submit">
+    </ul>
+</form>
+
+</html>
